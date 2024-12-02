@@ -1,0 +1,45 @@
+{
+    "guides": [
+      {
+        "id": 1,
+        "title": "Ako vymenit ziarovku",
+        "tags": ["elektronika", "udrzba", "domacnost"],
+        "lastModified": 1638345600,
+        "steps": [
+          {
+            "stepNumber": 1,
+            "description": "Vypnite napajanie.",
+            "comment": "Nezabudnite vypnut napajanie, aby ste sa vyhli urazu elektrickym prudom.",
+            "image": "images/step1.jpg"
+          },
+          {
+            "stepNumber": 2,
+            "description": "Odstrante staru ziarovku.",
+            "comment": "Staru ziarovku otocte proti smeru hodinovych ruciciek a opatrne ju vyberte.",
+            "image": "images/step2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Ako pripravit kavu",
+        "tags": ["kuchyna", "napoje"],
+        "lastModified": 1638357600,
+        "steps": [
+          {
+            "stepNumber": 1,
+            "description": "Nalejte vodu do kavovaru.",
+            "comment": "Pouzite cerstvu vodu a nalejte ju do zasobnika na vodu v kavovare.",
+            "image": "images/coffee_step1.jpg"
+          },
+          {
+            "stepNumber": 2,
+            "description": "Vlozte kavu do filtra.",
+            "comment": "Vyberte kvalitnu kavu a vlozte ju do filtra podla vasich preferencii.",
+            "image": "images/coffee_step2.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  
