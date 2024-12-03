@@ -1,45 +1,108 @@
 {
-    "guides": [
-      {
-        "id": 1,
-        "title": "Ako vymenit ziarovku",
-        "tags": ["elektronika", "udrzba", "domacnost"],
-        "lastModified": 1638345600,
-        "steps": [
-          {
-            "stepNumber": 1,
-            "description": "Vypnite napajanie.",
-            "comment": "Nezabudnite vypnut napajanie, aby ste sa vyhli urazu elektrickym prudom.",
-            "image": "images/step1.jpg"
-          },
-          {
-            "stepNumber": 2,
-            "description": "Odstrante staru ziarovku.",
-            "comment": "Staru ziarovku otocte proti smeru hodinovych ruciciek a opatrne ju vyberte.",
-            "image": "images/step2.jpg"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Ako pripravit kavu",
-        "tags": ["kuchyna", "napoje"],
-        "lastModified": 1638357600,
-        "steps": [
-          {
-            "stepNumber": 1,
-            "description": "Nalejte vodu do kavovaru.",
-            "comment": "Pouzite cerstvu vodu a nalejte ju do zasobnika na vodu v kavovare.",
-            "image": "images/coffee_step1.jpg"
-          },
-          {
-            "stepNumber": 2,
-            "description": "Vlozte kavu do filtra.",
-            "comment": "Vyberte kvalitnu kavu a vlozte ju do filtra podla vasich preferencii.",
-            "image": "images/coffee_step2.jpg"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "guides": [
+    {
+      "id": 1,
+      "title": "Ako vymenit ziarovku",
+      "tags": ["elektronika", "udrzba", "domacnost"],
+      "lastModified": 1638345600,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Vypnite napajanie.",
+          "comment": "Nezabudnite vypnut napajanie, aby ste sa vyhli urazu elektrickym prudom.",
+          "image": "images/step1.jpg"
+        },
+        {
+          "stepNumber": 2,
+          "description": "Odstrante staru ziarovku.",
+          "comment": "Staru ziarovku otocte proti smeru hodinovych ruciciek a opatrne ju vyberte.",
+          "image": "images/step2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ako pripravit kavu",
+      "tags": ["kuchyna", "napoje"],
+      "lastModified": 1638357600,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Nalejte vodu do kavovaru.",
+          "comment": "Pouzite cerstvu vodu a nalejte ju do zasobnika na vodu v kavovare.",
+          "image": "images/coffee_step1.jpg"
+        },
+        {
+          "stepNumber": 2,
+          "description": "Vlozte kavu do filtra.",
+          "comment": "Vyberte kvalitnu kavu a vlozte ju do filtra podla vasich preferencii.",
+          "image": "images/coffee_step2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ako vymenit bateriu v mobilnom telefone",
+      "tags": ["elektronika", "udrzba", "mobil"],
+      "lastModified": 1638369600,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Vypnite mobilny telefon.",
+          "comment": "Pred vymenou baterie vypnite telefon, aby ste predisli poskodeniu komponentov.",
+          "image": "images/battery_step1.jpg"
+        },
+        {
+          "stepNumber": 2,
+          "description": "Odstrante kryt telefonu.",
+          "comment": "Opatrne odstrante zadny kryt telefonu. Moze byt potrebne pouzit specialny nastroj na jeho otvorenie.",
+          "image": "images/battery_step2.jpg"
+        },
+        {
+          "stepNumber": 3,
+          "description": "Vyberte staru bateriu.",
+          "comment": "Opatrne vyberte staru bateriu. Nezabudnite skontrolovat, ci nie je pripevnena lepidlom.",
+          "image": "images/battery_step3.jpg"
+        },
+        {
+          "stepNumber": 4,
+          "description": "Vlozte novu bateriu.",
+          "comment": "Vlozte novu bateriu a uistite sa, ze je spravne umiestnena v konektore.",
+          "image": "images/battery_step4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ako urobit domaci smoothie",
+      "tags": ["kuchyna", "napoje", "zdrava vyziva"],
+      "lastModified": 1638375600,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Pripravte si ingrediencie.",
+          "comment": "Pouzite cerstve ovocie a zeleninu podla vlastneho vyberu (napr. banan, jahody, spenat).",
+          "image": "images/smoothie_step1.jpg"
+        },
+        {
+          "stepNumber": 2,
+          "description": "Vlozte ingrediencie do mixera.",
+          "comment": "Vlozte vsetky ingrediencie do mixera a pridajte trochu vody alebo rastlinneho mlieka.",
+          "image": "images/smoothie_step2.jpg"
+        },
+        {
+          "stepNumber": 3,
+          "description": "Mixujte az do hladka.",
+          "comment": "Mixujte ingrediencie, kym neziskate hladku konzistenciu. Podla potreby pridajte viac tekutiny.",
+          "image": "images/smoothie_step3.jpg"
+        },
+        {
+          "stepNumber": 4,
+          "description": "Nalejte smoothie do pohara.",
+          "comment": "Po dokonalom zmixovani, nalejte smoothie do pohara a podavajte s ladom podla chuti.",
+          "image": "images/smoothie_step4.jpg"
+        }
+      ]
+    }
+  ]
+}
