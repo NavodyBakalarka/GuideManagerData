@@ -1,195 +1,242 @@
 {
-    "guides": [
+  "Examples": [
+    {
+      "Id": "18217d8a-851a-46c9-8a3a-7989bce04b31",
+      "Title": "12345",
+      "Popis": "12121212",
+      "Zadanie": "",
+      "Kroky": [],
+      "Obrazok": "",
+      "Tags": [
+        "1212"
+      ],
+      "Points": 0,
+      "CorrectAnswers": null
+    },
+    {
+      "Id": "ef3833a6-34a2-4dea-b9a6-1a36141167fd",
+      "Title": "1041414",
+      "Popis": "4141414141",
+      "Zadanie": "11111",
+      "Kroky": [],
+      "Obrazok": "",
+      "Tags": [
+        "14141"
+      ],
+      "Points": 0,
+      "CorrectAnswers": null
+    },
+    {
+      "Id": "5054a6cb-212c-4cef-a100-eb4763ae0ae9",
+      "Title": "asdasdasd",
+      "Popis": "",
+      "Zadanie": "1598",
+      "Kroky": [],
+      "Obrazok": "",
+      "Tags": [
+        ""
+      ],
+      "Points": 0,
+      "CorrectAnswers": null
+    },
+    {
+      "Id": "146df548-7a0f-44b3-b94f-041f54ea239a",
+      "Title": "TOto je moj novy example",
+      "Popis": "",
+      "Zadanie": "42026999999999999999999999999999999999999999999+sadfsdf12sdf1s2df1+s1df2--sdf12",
+      "Kroky": [],
+      "Obrazok": "",
+      "Tags": [
+        ""
+      ],
+      "Points": 0,
+      "CorrectAnswers": null
+    }
+  ],
+  "Tests": [
+    {
+      "Id": null,
+      "Title": "Test Title",
+      "Examples": [
         {
-            "id": 1,
-            "lastModified": 1638345600,
-            "steps": [
-                {
-                    "comment": "Nezabudnite vypnut napajanie, aby ste sa vyhli urazu elektrickym prudom.",
-                    "description": "Vypnite napajanie.",
-                    "image": "images/step1.jpg",
-                    "stepNumber": 1
-                },
-                {
-                    "comment": "Staru ziarovku otocte proti smeru hodinovych ruciciek a opatrne ju vyberte.",
-                    "description": "Odstrante staru ziarovku.",
-                    "image": "images/step2.jpg",
-                    "stepNumber": 2
-                }
-            ],
-            "tags": [
-                "elektronika",
-                "udrzba",
-                "domacnost"
-            ],
-            "title": "Ako vymenit ziarovku"
+          "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
+          "Title": "3",
+          "Popis": "sdfsdfsdf",
+          "Zadanie": "35",
+          "Kroky": [
+            {
+              "Id": "409edfc7-52e1-4168-b303-ed2cfd7b36f5",
+              "Text": "prvy step",
+              "Comment": "neviem co robit",
+              "Picture": "785454"
+            },
+            {
+              "Id": "f0b90c68-6bcd-4729-8644-2a8b06b89b94",
+              "Text": "druhy step ",
+              "Comment": "stale neviem co robit",
+              "Picture": "22222000"
+            }
+          ],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
         },
         {
-            "id": 2,
-            "lastModified": 1638357600,
-            "steps": [
-                {
-                    "comment": "Pouzite cerstvu vodu a nalejte ju do zasobnika na vodu v kavovare.",
-                    "description": "Nalejte vodu do kavovaru.",
-                    "image": "images/coffee_step1.jpg",
-                    "stepNumber": 1
-                },
-                {
-                    "comment": "Vyberte kvalitnu kavu a vlozte ju do filtra podla vasich preferencii.",
-                    "description": "Vlozte kavu do filtra.",
-                    "image": "images/coffee_step2.jpg",
-                    "stepNumber": 2
-                }
-            ],
-            "tags": [
-                "kuchyna",
-                "napoje"
-            ],
-            "title": "Ako pripravit kavu"
+          "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
+          "Title": "2",
+          "Popis": "sdfsdfsdf",
+          "Zadanie": "50",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
         },
         {
-            "id": 3,
-            "lastModified": 1638369600,
-            "steps": [
-                {
-                    "comment": "Pred vymenou baterie vypnite telefon, aby ste predisli poskodeniu komponentov.",
-                    "description": "Vypnite mobilny telefon.",
-                    "image": "images/battery_step1.jpg",
-                    "stepNumber": 1
-                },
-                {
-                    "comment": "Opatrne odstrante zadny kryt telefonu. Moze byt potrebne pouzit specialny nastroj na jeho otvorenie.",
-                    "description": "Odstrante kryt telefonu.",
-                    "image": "images/battery_step2.jpg",
-                    "stepNumber": 2
-                },
-                {
-                    "comment": "Opatrne vyberte staru bateriu. Nezabudnite skontrolovat, ci nie je pripevnena lepidlom.",
-                    "description": "Vyberte staru bateriu.",
-                    "image": "images/battery_step3.jpg",
-                    "stepNumber": 3
-                },
-                {
-                    "comment": "Vlozte novu bateriu a uistite sa, ze je spravne umiestnena v konektore.",
-                    "description": "Vlozte novu bateriu.",
-                    "image": "images/battery_step4.jpg",
-                    "stepNumber": 4
-                }
-            ],
-            "tags": [
-                "elektronika",
-                "udrzba",
-                "mobil"
-            ],
-            "title": "Ako vymenit bateriu v mobilnom telefone"
+          "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
+          "Title": "1",
+          "Popis": "sdfsdfsdf",
+          "Zadanie": "78",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
         },
         {
-            "id": 4,
-            "lastModified": 1638375600,
-            "steps": [
-                {
-                    "comment": "Pouzite cerstve ovocie a zeleninu podla vlastneho vyberu (napr. banan, jahody, spenat).",
-                    "description": "Pripravte si ingrediencie.",
-                    "image": "images/smoothie_step1.jpg",
-                    "stepNumber": 1
-                },
-                {
-                    "comment": "Vlozte vsetky ingrediencie do mixera a pridajte trochu vody alebo rastlinneho mlieka.",
-                    "description": "Vlozte ingrediencie do mixera.",
-                    "image": "images/smoothie_step2.jpg",
-                    "stepNumber": 2
-                },
-                {
-                    "comment": "Mixujte ingrediencie, kym neziskate hladku konzistenciu. Podla potreby pridajte viac tekutiny.",
-                    "description": "Mixujte az do hladka.",
-                    "image": "images/smoothie_step3.jpg",
-                    "stepNumber": 3
-                },
-                {
-                    "comment": "Po dokonalom zmixovani, nalejte smoothie do pohara a podavajte s ladom podla chuti.",
-                    "description": "Nalejte smoothie do pohara.",
-                    "image": "images/smoothie_step4.jpg",
-                    "stepNumber": 4
-                }
-            ],
-            "tags": [
-                "kuchyna",
-                "napoje",
-                "zdrava vyziva"
-            ],
-            "title": "Ako urobit domaci smoothie"
-        },
-        {
-            "id": 5,
-            "lastModified": 1733215384,
-            "steps": [
-                {
-                    "comment": "toto je komentar pre prvy step",
-                    "description": "toto je desc pre prvy step",
-                    "image": "images/default.jpg",
-                    "stepNumber": 1
-                }
-            ],
-            "tags": [
-                "toto su tagy"
-            ],
-            "title": "toto je titul"
-        },
-        {
-            "id": 6,
-            "lastModified": 1733215507,
-            "steps": [
-                {
-                    "comment": "treba silno",
-                    "description": "najrpv otvorite okno",
-                    "image": "images/default.jpg",
-                    "stepNumber": 1
-                },
-                {
-                    "comment": "",
-                    "description": "potom sa postavite na parapetu",
-                    "image": "images/default.jpg",
-                    "stepNumber": 2
-                },
-                {
-                    "comment": "hippity hopiity",
-                    "description": "a skocite",
-                    "image": "images/default.jpg",
-                    "stepNumber": 3
-                }
-            ],
-            "tags": [
-                "suicide"
-            ],
-            "title": "ako skocit z okna"
-        },
-        {
-            "id": 7,
-            "lastModified": 1733218273,
-            "steps": [
-                {
-                    "comment": "Vela tehiel",
-                    "description": "Najrpv zober tehlu",
-                    "image": "images/default.jpg",
-                    "stepNumber": 1
-                },
-                {
-                    "comment": "vsetky",
-                    "description": "Teraz ich postav na seba",
-                    "image": "images/default.jpg",
-                    "stepNumber": 2
-                },
-                {
-                    "comment": "huraaaa",
-                    "description": "mas postaveny dom",
-                    "image": "images/default.jpg",
-                    "stepNumber": 3
-                }
-            ],
-            "tags": [
-                "building"
-            ],
-            "title": "Navod ako postavit dom"
+          "Id": "146df548-7a0f-44b3-b94f-041f54ea239a",
+          "Title": "TOto je moj novy example",
+          "Popis": "",
+          "Zadanie": "420269",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
         }
-    ]
+      ],
+      "Points": 0
+    },
+    {
+      "Id": null,
+      "Title": "Test Title",
+      "Examples": [
+        {
+          "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
+          "Title": "+ľ+ľ+ľ+ľ141",
+          "Popis": "",
+          "Zadanie": "",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
+        },
+        {
+          "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
+          "Title": "+ľ+ľ+ľ+ľ141",
+          "Popis": "",
+          "Zadanie": "",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
+        },
+        {
+          "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
+          "Title": "+ľ+ľ+ľ+ľ141",
+          "Popis": "",
+          "Zadanie": "",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
+        }
+      ],
+      "Points": 0
+    },
+    {
+      "Id": null,
+      "Title": "Novy test testestest",
+      "Examples": [
+        {
+          "Id": "0adcc190-206e-49ea-9f70-117add728647",
+          "Title": "1212",
+          "Popis": "",
+          "Zadanie": "",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
+        },
+        {
+          "Id": "0adcc190-206e-49ea-9f70-117add728647",
+          "Title": "2323",
+          "Popis": "",
+          "Zadanie": "",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
+        },
+        {
+          "Id": "0adcc190-206e-49ea-9f70-117add728647",
+          "Title": "55555",
+          "Popis": "",
+          "Zadanie": "",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
+        }
+      ],
+      "Points": 0
+    },
+    {
+      "Id": null,
+      "Title": "",
+      "Examples": [
+        {
+          "Id": "4bc1e12f-9fa9-48ab-948a-bf36411f55d1",
+          "Title": "12345",
+          "Popis": "",
+          "Zadanie": "99",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectAnswers": null
+        }
+      ],
+      "Points": 0
+    }
+  ]
 }
