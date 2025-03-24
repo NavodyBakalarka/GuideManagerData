@@ -128,7 +128,14 @@
           "Title": "TOto je moj novy example",
           "Popis": "",
           "Zadanie": "420269",
-          "Kroky": [],
+          "Kroky": [
+            {
+              "Id": "76967d33-f0f4-42b6-a371-e97a7a979747",
+              "Text": "novy step",
+              "Comment": "",
+              "Picture": "novystep"
+            }
+          ],
           "Obrazok": "",
           "Tags": [
             ""
