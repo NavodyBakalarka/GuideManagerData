@@ -4,66 +4,118 @@
       "Id": "18217d8a-851a-46c9-8a3a-7989bce04b31",
       "Title": "12345",
       "Popis": "12121212",
-      "Zadanie": "",
+      "WolframZadanie": null,
+      "LatexZadanie": null,
       "Kroky": [],
       "Obrazok": "",
       "Tags": [
         "1212212"
       ],
       "Points": 0,
-      "CorrectAnswers": null
+      "CorrectWolframAnswer": null,
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": null,
+      "UserLatexAnswer": null
     },
     {
       "Id": "ef3833a6-34a2-4dea-b9a6-1a36141167fd",
       "Title": "1041414",
       "Popis": "4141414141",
-      "Zadanie": "11111",
+      "WolframZadanie": null,
+      "LatexZadanie": null,
       "Kroky": [],
       "Obrazok": "",
       "Tags": [
         "14141"
       ],
       "Points": 0,
-      "CorrectAnswers": null
+      "CorrectWolframAnswer": null,
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": null,
+      "UserLatexAnswer": null
     },
     {
       "Id": "5054a6cb-212c-4cef-a100-eb4763ae0ae9",
       "Title": "asdasdasd",
       "Popis": "",
-      "Zadanie": "1598",
+      "WolframZadanie": null,
+      "LatexZadanie": null,
       "Kroky": [],
       "Obrazok": "",
       "Tags": [
         ""
       ],
       "Points": 0,
-      "CorrectAnswers": null
+      "CorrectWolframAnswer": null,
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": null,
+      "UserLatexAnswer": null
     },
     {
       "Id": "146df548-7a0f-44b3-b94f-041f54ea239a",
       "Title": "TOto je moj novy example",
       "Popis": "",
-      "Zadanie": "42026999999999999999999999999999999999999999999+sadfsdf12sdf1s2df1+s1df2--sdf12",
+      "WolframZadanie": null,
+      "LatexZadanie": null,
       "Kroky": [],
       "Obrazok": "",
       "Tags": [
         ""
       ],
       "Points": 0,
-      "CorrectAnswers": null
+      "CorrectWolframAnswer": null,
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": null,
+      "UserLatexAnswer": null
     },
     {
       "Id": "6a51d4fc-d494-4fe2-b3e2-d8fd03e064d0",
       "Title": "Toto je pre moju lasku",
       "Popis": "etsetsets",
-      "Zadanie": "lubimtavelmi",
+      "WolframZadanie": null,
+      "LatexZadanie": null,
       "Kroky": [],
       "Obrazok": "",
       "Tags": [
         ""
       ],
       "Points": 0,
-      "CorrectAnswers": null
+      "CorrectWolframAnswer": null,
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": null,
+      "UserLatexAnswer": null
+    },
+    {
+      "Id": "24915b5d-9c1c-45dc-b73d-0039f37f5a71",
+      "Title": "Zadanie č.1",
+      "Popis": "",
+      "WolframZadanie": "2/3*5+sqrt(10-5)*x+x=125",
+      "LatexZadanie": "\\frac{2}{3} \\cdot 5+\\sqrt{10-5} \\cdot x+x=125",
+      "Kroky": [
+        {
+          "Id": "b4576494-f0bc-47fd-b3b8-5f4d4e77b269",
+          "Text": "Prvy krok ktory neviem co robi",
+          "Comment": "",
+          "WolframText": "5x*x+2/5x+x/2",
+          "LatexText": "5 \\cdot x \\cdot x+\\frac{2}{5}x+x/2"
+        },
+        {
+          "Id": "5728a8b8-2054-447c-b3d6-cba37d256ed5",
+          "Text": "Druhý krok",
+          "Comment": "",
+          "WolframText": "1234/2x+25+sqrt(-1)=y",
+          "LatexText": "\\frac{1234}{2}x+25+\\sqrt{-1}=y"
+        }
+      ],
+      "Obrazok": "",
+      "Tags": [
+        ""
+      ],
+      "Points": 0,
+      "CorrectWolframAnswer": "5x+1/2",
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": "5 \\cdot x+\\frac{1}{2}",
+      "UserLatexAnswer": null
     }
   ],
   "Tests": [
@@ -75,19 +127,22 @@
           "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
           "Title": "3",
           "Popis": "sdfsdfsdf",
-          "Zadanie": "35",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [
             {
               "Id": "409edfc7-52e1-4168-b303-ed2cfd7b36f5",
               "Text": "prvy step",
               "Comment": "neviem co robit",
-              "Picture": "785454"
+              "WolframText": null,
+              "LatexText": null
             },
             {
               "Id": "f0b90c68-6bcd-4729-8644-2a8b06b89b94",
               "Text": "druhy step ",
               "Comment": "stale neviem co robit",
-              "Picture": "22222000"
+              "WolframText": null,
+              "LatexText": null
             }
           ],
           "Obrazok": "",
@@ -95,45 +150,58 @@
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         },
         {
           "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
           "Title": "2",
           "Popis": "sdfsdfsdf",
-          "Zadanie": "50",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         },
         {
           "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
           "Title": "1",
           "Popis": "sdfsdfsdf",
-          "Zadanie": "78",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         },
         {
           "Id": "146df548-7a0f-44b3-b94f-041f54ea239a",
           "Title": "TOto je moj novy example",
           "Popis": "",
-          "Zadanie": "420269",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [
             {
               "Id": "76967d33-f0f4-42b6-a371-e97a7a979747",
               "Text": "novy step",
               "Comment": "",
-              "Picture": "novystep"
+              "WolframText": null,
+              "LatexText": null
             }
           ],
           "Obrazok": "",
@@ -141,7 +209,10 @@
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         }
       ],
       "Points": 0
@@ -154,40 +225,52 @@
           "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
           "Title": "+ľ+ľ+ľ+ľ141",
           "Popis": "",
-          "Zadanie": "",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         },
         {
           "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
           "Title": "+ľ+ľ+ľ+ľ141",
           "Popis": "",
-          "Zadanie": "",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         },
         {
           "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
           "Title": "+ľ+ľ+ľ+ľ141",
           "Popis": "",
-          "Zadanie": "",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         }
       ],
       "Points": 0
@@ -200,40 +283,52 @@
           "Id": "0adcc190-206e-49ea-9f70-117add728647",
           "Title": "1212",
           "Popis": "",
-          "Zadanie": "",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         },
         {
           "Id": "0adcc190-206e-49ea-9f70-117add728647",
           "Title": "2323",
           "Popis": "",
-          "Zadanie": "",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         },
         {
           "Id": "0adcc190-206e-49ea-9f70-117add728647",
           "Title": "55555",
           "Popis": "",
-          "Zadanie": "",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         }
       ],
       "Points": 0
@@ -246,14 +341,18 @@
           "Id": "4bc1e12f-9fa9-48ab-948a-bf36411f55d1",
           "Title": "12345",
           "Popis": "",
-          "Zadanie": "99",
+          "WolframZadanie": null,
+          "LatexZadanie": null,
           "Kroky": [],
           "Obrazok": "",
           "Tags": [
             ""
           ],
           "Points": 0,
-          "CorrectAnswers": null
+          "CorrectWolframAnswer": null,
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
         }
       ],
       "Points": 0
