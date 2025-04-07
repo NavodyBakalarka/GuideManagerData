@@ -335,30 +335,6 @@
     },
     {
       "Id": null,
-      "Title": "",
-      "Examples": [
-        {
-          "Id": "4bc1e12f-9fa9-48ab-948a-bf36411f55d1",
-          "Title": "12345",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        }
-      ],
-      "Points": 0
-    },
-    {
-      "Id": null,
       "Title": "Test č.1",
       "Examples": [
         {
