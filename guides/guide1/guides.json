@@ -112,9 +112,26 @@
         ""
       ],
       "Points": 0,
-      "CorrectWolframAnswer": "5x+1/2",
+      "CorrectWolframAnswer": "1/2x+2",
       "UserWolframAnswer": null,
-      "CorrectLatexAnswer": "5 \\cdot x+\\frac{1}{2}",
+      "CorrectLatexAnswer": "\\frac{1}{2}x+2",
+      "UserLatexAnswer": null
+    },
+    {
+      "Id": "b55c2264-e702-491d-afe1-67c6a836f347",
+      "Title": "Zadanie č.2",
+      "Popis": "",
+      "WolframZadanie": "1+2+3+4/2+x+2/2x",
+      "LatexZadanie": "1+2+3+\\frac{4}{2}+x+\\frac{2}{2}x",
+      "Kroky": [],
+      "Obrazok": "",
+      "Tags": [
+        ""
+      ],
+      "Points": 0,
+      "CorrectWolframAnswer": "sqrt(10)x+2",
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": "\\sqrt{10}x+2",
       "UserLatexAnswer": null
     }
   ],
@@ -254,23 +271,6 @@
           "UserWolframAnswer": null,
           "CorrectLatexAnswer": null,
           "UserLatexAnswer": null
-        },
-        {
-          "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
-          "Title": "+ľ+ľ+ľ+ľ141",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
         }
       ],
       "Points": 0
@@ -352,6 +352,62 @@
           "CorrectWolframAnswer": null,
           "UserWolframAnswer": null,
           "CorrectLatexAnswer": null,
+          "UserLatexAnswer": null
+        }
+      ],
+      "Points": 0
+    },
+    {
+      "Id": null,
+      "Title": "Test č.1",
+      "Examples": [
+        {
+          "Id": "24915b5d-9c1c-45dc-b73d-0039f37f5a71",
+          "Title": "Zadanie č.1",
+          "Popis": "",
+          "WolframZadanie": "2/3*5+sqrt(10-5)*x+x=125",
+          "LatexZadanie": "\\frac{2}{3} \\cdot 5+\\sqrt{10-5} \\cdot x+x=125",
+          "Kroky": [
+            {
+              "Id": "b4576494-f0bc-47fd-b3b8-5f4d4e77b269",
+              "Text": "Prvy krok ktory neviem co robi",
+              "Comment": "",
+              "WolframText": "5x*x+2/5x+x/2",
+              "LatexText": "5 \\cdot x \\cdot x+\\frac{2}{5}x+x/2"
+            },
+            {
+              "Id": "5728a8b8-2054-447c-b3d6-cba37d256ed5",
+              "Text": "Druhý krok",
+              "Comment": "",
+              "WolframText": "1234/2x+25+sqrt(-1)=y",
+              "LatexText": "\\frac{1234}{2}x+25+\\sqrt{-1}=y"
+            }
+          ],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectWolframAnswer": "D[Sin[x]^2, x]",
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": "\\frac{d}{dx}(Sin[x]^2)",
+          "UserLatexAnswer": null
+        },
+        {
+          "Id": "b55c2264-e702-491d-afe1-67c6a836f347",
+          "Title": "Zadanie č.2",
+          "Popis": "",
+          "WolframZadanie": "1+2+3+4/2+x+2/2x",
+          "LatexZadanie": "1+2+3+\\frac{4}{2}+x+\\frac{2}{2}x",
+          "Kroky": [],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectWolframAnswer": "sqrt(10)*x+2",
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": "\\sqrt{10} \\cdot x+2",
           "UserLatexAnswer": null
         }
       ],
