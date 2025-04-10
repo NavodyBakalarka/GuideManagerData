@@ -1,362 +1,367 @@
 {
   "Examples": [
     {
-      "Id": "18217d8a-851a-46c9-8a3a-7989bce04b31",
-      "Title": "12345",
-      "Popis": "12121212",
-      "WolframZadanie": null,
-      "LatexZadanie": null,
-      "Kroky": [],
-      "Obrazok": "",
-      "Tags": [
-        "1212212"
-      ],
-      "Points": 0,
-      "CorrectWolframAnswer": null,
-      "UserWolframAnswer": null,
-      "CorrectLatexAnswer": null,
-      "UserLatexAnswer": null
-    },
-    {
-      "Id": "ef3833a6-34a2-4dea-b9a6-1a36141167fd",
-      "Title": "1041414",
-      "Popis": "4141414141",
-      "WolframZadanie": null,
-      "LatexZadanie": null,
-      "Kroky": [],
-      "Obrazok": "",
-      "Tags": [
-        "14141"
-      ],
-      "Points": 0,
-      "CorrectWolframAnswer": null,
-      "UserWolframAnswer": null,
-      "CorrectLatexAnswer": null,
-      "UserLatexAnswer": null
-    },
-    {
-      "Id": "5054a6cb-212c-4cef-a100-eb4763ae0ae9",
-      "Title": "asdasdasd",
-      "Popis": "",
-      "WolframZadanie": null,
-      "LatexZadanie": null,
-      "Kroky": [],
-      "Obrazok": "",
-      "Tags": [
-        ""
-      ],
-      "Points": 0,
-      "CorrectWolframAnswer": null,
-      "UserWolframAnswer": null,
-      "CorrectLatexAnswer": null,
-      "UserLatexAnswer": null
-    },
-    {
-      "Id": "146df548-7a0f-44b3-b94f-041f54ea239a",
-      "Title": "TOto je moj novy example",
-      "Popis": "",
-      "WolframZadanie": null,
-      "LatexZadanie": null,
-      "Kroky": [],
-      "Obrazok": "",
-      "Tags": [
-        ""
-      ],
-      "Points": 0,
-      "CorrectWolframAnswer": null,
-      "UserWolframAnswer": null,
-      "CorrectLatexAnswer": null,
-      "UserLatexAnswer": null
-    },
-    {
-      "Id": "6a51d4fc-d494-4fe2-b3e2-d8fd03e064d0",
-      "Title": "Toto je pre moju lasku",
-      "Popis": "etsetsets",
-      "WolframZadanie": null,
-      "LatexZadanie": null,
-      "Kroky": [],
-      "Obrazok": "",
-      "Tags": [
-        ""
-      ],
-      "Points": 0,
-      "CorrectWolframAnswer": null,
-      "UserWolframAnswer": null,
-      "CorrectLatexAnswer": null,
-      "UserLatexAnswer": null
-    },
-    {
-      "Id": "24915b5d-9c1c-45dc-b73d-0039f37f5a71",
-      "Title": "Zadanie č.1",
-      "Popis": "",
-      "WolframZadanie": "2/3*5+sqrt(10-5)*x+x=125",
-      "LatexZadanie": "\\frac{2}{3} \\cdot 5+\\sqrt{10-5} \\cdot x+x=125",
+      "Id": "384e2ca5-1546-42f8-b43f-276e20100fde",
+      "Title": "Derivovanie",
+      "Popis": "Zderivujte výraz",
+      "WolframZadanie": "D[(x^3 + 2 x^2 - 5), x]",
+      "LatexZadanie": "\\frac{d}{dx}((x^{3}+2 \\cdot x^{2}-5))",
       "Kroky": [
         {
-          "Id": "b4576494-f0bc-47fd-b3b8-5f4d4e77b269",
-          "Text": "Prvy krok ktory neviem co robi",
-          "Comment": "",
-          "WolframText": "5x*x+2/5x+x/2",
-          "LatexText": "5 \\cdot x \\cdot x+\\frac{2}{5}x+x/2"
+          "Id": "6e039068-fb28-4eb0-8ee3-c3d6b28a4d7b",
+          "Text": "Krok 1: Rozdelenie derivácie na jednotlivé členy",
+          "Comment": "Použijeme vlastnosť lineárnosti derivácie (derivácia súčtu je súčet derivácií):",
+          "WolframText": "D[x^3 + 2 x^2 - 5, x] =  D[x^3, x] + D[2 x^2, x] + D[-5, x]",
+          "LatexText": "\\frac{d}{dx}(x^{3}+2 \\cdot x^{2}-5)=\\frac{d}{dx}(x^{3})+\\frac{d}{dx}(2 \\cdot x^{2})+\\frac{d}{dx}(-5)"
         },
         {
-          "Id": "5728a8b8-2054-447c-b3d6-cba37d256ed5",
-          "Text": "Druhý krok",
+          "Id": "f2d0b55a-08fa-4ae7-b516-dfc3e73d4cc8",
+          "Text": "Krok 2: Derivuj jednotlivé členy 1.",
           "Comment": "",
-          "WolframText": "1234/2x+25+sqrt(-1)=y",
-          "LatexText": "\\frac{1234}{2}x+25+\\sqrt{-1}=y"
+          "WolframText": "D[x^3, x] = 3 x^2",
+          "LatexText": "\\frac{d}{dx}(x^{3})=3 \\cdot x^{2}"
+        },
+        {
+          "Id": "bff531b9-ded1-4c31-8761-add0e922a661",
+          "Text": "Krok 2: Derivuj jednotlivé členy 2.",
+          "Comment": "",
+          "WolframText": "D[2 x^2, x] = 2 * D[x^2, x] = 2 * 2 x = 4 x",
+          "LatexText": "\\frac{d}{dx}(2 \\cdot x^{2})=2 \\cdot \\frac{d}{dx}(x^{2})=2 \\cdot 2 \\cdot x=4 \\cdot x"
+        },
+        {
+          "Id": "b55f0ee5-eb6d-4381-acd4-d45c7c2e0ad1",
+          "Text": "Krok 2: Derivuj jednotlivé členy 3.",
+          "Comment": "",
+          "WolframText": "D[-5, x] = 0",
+          "LatexText": "\\frac{d}{dx}(-5)=0"
+        },
+        {
+          "Id": "6647c2d9-3459-42f6-8b39-a3efedba608e",
+          "Text": " Krok 3: Spočítanie všetkého dokopy",
+          "Comment": "",
+          "WolframText": "3 x^2 + 4 x + 0",
+          "LatexText": "3 \\cdot x^{2}+4 \\cdot x+0"
         }
       ],
       "Obrazok": "",
       "Tags": [
-        ""
+        "derivovanie"
       ],
       "Points": 0,
-      "CorrectWolframAnswer": "1/2x+2",
+      "CorrectWolframAnswer": "3*x^2 + 4*x",
       "UserWolframAnswer": null,
-      "CorrectLatexAnswer": "\\frac{1}{2}x+2",
+      "CorrectLatexAnswer": "3 \\cdot x^{2}+4 \\cdot x",
       "UserLatexAnswer": null
     },
     {
-      "Id": "b55c2264-e702-491d-afe1-67c6a836f347",
-      "Title": "Zadanie č.2",
-      "Popis": "",
-      "WolframZadanie": "1+2+3+4/2+x+2/2x",
-      "LatexZadanie": "1+2+3+\\frac{4}{2}+x+\\frac{2}{2}x",
-      "Kroky": [],
+      "Id": "724735f4-b679-45f3-990d-7d4800614ff2",
+      "Title": "Integrácia",
+      "Popis": "Zintegrovať výraz",
+      "WolframZadanie": "Integrate[x^3 + 2 x^2 - 5, x]",
+      "LatexZadanie": "\\int x^{3}+2 \\cdot x^{2}-5 \\, dx",
+      "Kroky": [
+        {
+          "Id": "3873c33e-88f5-4f07-ba31-23608767b053",
+          "Text": "Krok 1: Rozdelíme integrál na jednotlivé členy",
+          "Comment": "",
+          "WolframText": "Integrate[x^3 + 2 x^2 - 5, x] = Integrate[x^3, x] + Integrate[2 x^2, x] - Integrate[5, x]",
+          "LatexText": "\\int x^{3}+2 \\cdot x^{2}-5 \\, dx=\\int x^{3} \\, dx+\\int 2 \\cdot x^{2} \\, dx-\\int 5 \\, dx"
+        },
+        {
+          "Id": "1b3bd89d-e71f-4d45-9e6e-28e2c8acc792",
+          "Text": "Krok 2: Integrovanie jednotlivých členov 1.",
+          "Comment": "",
+          "WolframText": "Integrate[x^3, x] = x^4/4",
+          "LatexText": "\\int x^{3} \\, dx=x^{4}/4"
+        },
+        {
+          "Id": "19eb797d-c4ad-4a78-82da-3efca6fb1c86",
+          "Text": "Krok 2: Integrovanie jednotlivých členov 2.",
+          "Comment": "",
+          "WolframText": "Integrate[2 x^2, x] = (2 x^3)/3",
+          "LatexText": "\\int 2 \\cdot x^{2} \\, dx=(2 \\cdot x^{3})/3"
+        },
+        {
+          "Id": "99c5c5d9-fbcb-49b4-bdce-945d4ccc172c",
+          "Text": "Krok 2: Integrovanie jednotlivých členov 3.",
+          "Comment": "",
+          "WolframText": "Integrate[5, x] = 5 x",
+          "LatexText": "\\int 5 \\, dx=5 \\cdot x"
+        },
+        {
+          "Id": "065673f5-a955-4f5e-9d9c-44535445da22",
+          "Text": "Krok 3: Spočítame všetko",
+          "Comment": "",
+          "WolframText": "x^4/4 + (2 x^3)/3 - 5 x + C",
+          "LatexText": "x^{4}/4+(2 \\cdot x^{3})/3-5 \\cdot x+C"
+        }
+      ],
       "Obrazok": "",
       "Tags": [
-        ""
+        "integral"
       ],
       "Points": 0,
-      "CorrectWolframAnswer": "sqrt(10)x+2",
+      "CorrectWolframAnswer": "(x^4)/4 + (2*x^3)/3 - 5*x + C",
       "UserWolframAnswer": null,
-      "CorrectLatexAnswer": "\\sqrt{10}x+2",
+      "CorrectLatexAnswer": "(x^{4})/4+(2 \\cdot x^{3})/3-5 \\cdot x+C",
+      "UserLatexAnswer": null
+    },
+    {
+      "Id": "9404c7fd-d2a3-4159-a339-a99e3a011a5d",
+      "Title": "Algebraická rovnica",
+      "Popis": "Vyrieš rovnicu",
+      "WolframZadanie": "x^2 + 5*x + 6=0",
+      "LatexZadanie": "x^{2}+5 \\cdot x+6=0",
+      "Kroky": [
+        {
+          "Id": "88bc4f65-b0d8-4e0d-af4d-b1907ea29536",
+          "Text": "1. Krok Zapíš kvadratický vzorec",
+          "Comment": "",
+          "WolframText": "x = (-b +- sqrt(b^2 - 4 a c)) / (2 a)",
+          "LatexText": "x=\\left(\\frac{-b+-\\sqrt{b^{2}-4 \\cdot ac}}{2 \\cdot a}\\right)"
+        },
+        {
+          "Id": "43231f10-4e76-4ac5-978c-160d18276f6e",
+          "Text": "Vlož do vzorca konkrétne hodnoty (symbolicky)",
+          "Comment": "",
+          "WolframText": "x = (-5 +- sqrt(5^2 - 4*1*6])) / (2*1)",
+          "LatexText": "x=\\left(\\frac{-5+-\\sqrt{5^{2}-4 \\cdot 1 \\cdot 6]}}{2 \\cdot 1}\\right)"
+        }
+      ],
+      "Obrazok": "",
+      "Tags": [
+        "algebraicka rovnica"
+      ],
+      "Points": 0,
+      "CorrectWolframAnswer": "x = {-3, -2}",
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": "x={-3,-2}",
+      "UserLatexAnswer": null
+    },
+    {
+      "Id": "8a8f7f27-0436-4c20-a49a-ed4d5834d04f",
+      "Title": "Limita",
+      "Popis": "Vypočítajte limitu",
+      "WolframZadanie": "Limit[(x^2 - 4)/(x - 2), x -> 2]",
+      "LatexZadanie": "\\lim_{x \\to 2} \\left(\\frac{x^{2}-4}{x-2}\\right)",
+      "Kroky": [
+        {
+          "Id": "09629d61-3477-4ad9-bc4b-f10f4ca862aa",
+          "Text": "Krok 1: Rozpoznaj neurčitý výraz",
+          "Comment": "Pri dosadení 𝑥 = 2  vzniká 0/0 , preto pokračujeme algebraickou úpravou.",
+          "WolframText": "",
+          "LatexText": null
+        },
+        {
+          "Id": "60b2cf0b-f354-465d-bef2-9d00d1109170",
+          "Text": "Krok 2: Rozlož čitateľa na súčin",
+          "Comment": "",
+          "WolframText": "Limit[((x - 2)(x + 2))/(x - 2), x -> 2]",
+          "LatexText": "\\lim_{x \\to 2} ((x-2)(x+2))/(x-2)"
+        },
+        {
+          "Id": "f1bdc0c1-05ed-4185-86f7-144825335064",
+          "Text": "Krok 4: Skráť spoločný člen (x - 2 ≠ 0, okrem bodu x = 2)",
+          "Comment": "",
+          "WolframText": "Limit[x + 2, x -> 2]",
+          "LatexText": "\\lim_{x \\to 2} x+2"
+        },
+        {
+          "Id": "178c24a3-871c-4168-aa77-cc59e11e7db2",
+          "Text": "Krok 5: Dosadíme hodnotu x → 2",
+          "Comment": "",
+          "WolframText": "2 + 2",
+          "LatexText": "2+2"
+        }
+      ],
+      "Obrazok": "",
+      "Tags": [
+        "limita"
+      ],
+      "Points": 0,
+      "CorrectWolframAnswer": "4",
+      "UserWolframAnswer": null,
+      "CorrectLatexAnswer": "4",
       "UserLatexAnswer": null
     }
   ],
   "Tests": [
     {
       "Id": null,
-      "Title": "Test Title",
+      "Title": "Test číslo 1",
       "Examples": [
         {
-          "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
-          "Title": "3",
-          "Popis": "sdfsdfsdf",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
+          "Id": "384e2ca5-1546-42f8-b43f-276e20100fde",
+          "Title": "Derivovanie",
+          "Popis": "Zderivujte výraz",
+          "WolframZadanie": "D[(x^3 + 2 x^2 - 5), x]",
+          "LatexZadanie": "\\frac{d}{dx}((x^{3}+2 \\cdot x^{2}-5))",
           "Kroky": [
             {
-              "Id": "409edfc7-52e1-4168-b303-ed2cfd7b36f5",
-              "Text": "prvy step",
-              "Comment": "neviem co robit",
-              "WolframText": null,
+              "Id": "6e039068-fb28-4eb0-8ee3-c3d6b28a4d7b",
+              "Text": "Krok 1: Rozdelenie derivácie na jednotlivé členy",
+              "Comment": "Použijeme vlastnosť lineárnosti derivácie (derivácia súčtu je súčet derivácií):",
+              "WolframText": "D[x^3 + 2 x^2 - 5, x] =  D[x^3, x] + D[2 x^2, x] + D[-5, x]",
+              "LatexText": "\\frac{d}{dx}(x^{3}+2 \\cdot x^{2}-5)=\\frac{d}{dx}(x^{3})+\\frac{d}{dx}(2 \\cdot x^{2})+\\frac{d}{dx}(-5)"
+            },
+            {
+              "Id": "f2d0b55a-08fa-4ae7-b516-dfc3e73d4cc8",
+              "Text": "Krok 2: Derivuj jednotlivé členy 1.",
+              "Comment": "",
+              "WolframText": "D[x^3, x] = 3 x^2",
+              "LatexText": "\\frac{d}{dx}(x^{3})=3 \\cdot x^{2}"
+            },
+            {
+              "Id": "bff531b9-ded1-4c31-8761-add0e922a661",
+              "Text": "Krok 2: Derivuj jednotlivé členy 2.",
+              "Comment": "",
+              "WolframText": "D[2 x^2, x] = 2 * D[x^2, x] = 2 * 2 x = 4 x",
+              "LatexText": "\\frac{d}{dx}(2 \\cdot x^{2})=2 \\cdot \\frac{d}{dx}(x^{2})=2 \\cdot 2 \\cdot x=4 \\cdot x"
+            },
+            {
+              "Id": "b55f0ee5-eb6d-4381-acd4-d45c7c2e0ad1",
+              "Text": "Krok 2: Derivuj jednotlivé členy 3.",
+              "Comment": "",
+              "WolframText": "D[-5, x] = 0",
+              "LatexText": "\\frac{d}{dx}(-5)=0"
+            },
+            {
+              "Id": "6647c2d9-3459-42f6-8b39-a3efedba608e",
+              "Text": " Krok 3: Spočítanie všetkého dokopy",
+              "Comment": "",
+              "WolframText": "3 x^2 + 4 x + 0",
+              "LatexText": "3 \\cdot x^{2}+4 \\cdot x+0"
+            }
+          ],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectWolframAnswer": "3*x^2 + 4*x",
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": "3 \\cdot x^{2}+4 \\cdot x",
+          "UserLatexAnswer": null
+        },
+        {
+          "Id": "724735f4-b679-45f3-990d-7d4800614ff2",
+          "Title": "Integrácia",
+          "Popis": "Zintegrovať výraz",
+          "WolframZadanie": "Integrate[x^3 + 2 x^2 - 5, x]",
+          "LatexZadanie": "\\int x^{3}+2 \\cdot x^{2}-5 \\, dx",
+          "Kroky": [
+            {
+              "Id": "3873c33e-88f5-4f07-ba31-23608767b053",
+              "Text": "Krok 1: Rozdelíme integrál na jednotlivé členy",
+              "Comment": "",
+              "WolframText": "Integrate[x^3 + 2 x^2 - 5, x] = Integrate[x^3, x] + Integrate[2 x^2, x] - Integrate[5, x]",
+              "LatexText": "\\int x^{3}+2 \\cdot x^{2}-5 \\, dx=\\int x^{3} \\, dx+\\int 2 \\cdot x^{2} \\, dx-\\int 5 \\, dx"
+            },
+            {
+              "Id": "1b3bd89d-e71f-4d45-9e6e-28e2c8acc792",
+              "Text": "Krok 2: Integrovanie jednotlivých členov 1.",
+              "Comment": "",
+              "WolframText": "Integrate[x^3, x] = x^4/4",
+              "LatexText": "\\int x^{3} \\, dx=x^{4}/4"
+            },
+            {
+              "Id": "19eb797d-c4ad-4a78-82da-3efca6fb1c86",
+              "Text": "Krok 2: Integrovanie jednotlivých členov 2.",
+              "Comment": "",
+              "WolframText": "Integrate[2 x^2, x] = (2 x^3)/3",
+              "LatexText": "\\int 2 \\cdot x^{2} \\, dx=(2 \\cdot x^{3})/3"
+            },
+            {
+              "Id": "99c5c5d9-fbcb-49b4-bdce-945d4ccc172c",
+              "Text": "Krok 2: Integrovanie jednotlivých členov 3.",
+              "Comment": "",
+              "WolframText": "Integrate[5, x] = 5 x",
+              "LatexText": "\\int 5 \\, dx=5 \\cdot x"
+            },
+            {
+              "Id": "065673f5-a955-4f5e-9d9c-44535445da22",
+              "Text": "Krok 3: Spočítame všetko",
+              "Comment": "",
+              "WolframText": "x^4/4 + (2 x^3)/3 - 5 x + C",
+              "LatexText": "x^{4}/4+(2 \\cdot x^{3})/3-5 \\cdot x+C"
+            }
+          ],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectWolframAnswer": "(x^4)/4 + (2*x^3)/3 - 5*x + C",
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": "(x^{4})/4+(2 \\cdot x^{3})/3-5 \\cdot x+C",
+          "UserLatexAnswer": null
+        },
+        {
+          "Id": "9404c7fd-d2a3-4159-a339-a99e3a011a5d",
+          "Title": "Algebraická rovnica",
+          "Popis": "Vyrieš rovnicu",
+          "WolframZadanie": "x^2 + 5*x + 6=0",
+          "LatexZadanie": "x^{2}+5 \\cdot x+6=0",
+          "Kroky": [
+            {
+              "Id": "88bc4f65-b0d8-4e0d-af4d-b1907ea29536",
+              "Text": "1. Krok Zapíš kvadratický vzorec",
+              "Comment": "",
+              "WolframText": "x = (-b +- sqrt(b^2 - 4 a c)) / (2 a)",
+              "LatexText": "x=\\left(\\frac{-b+-\\sqrt{b^{2}-4 \\cdot ac}}{2 \\cdot a}\\right)"
+            },
+            {
+              "Id": "43231f10-4e76-4ac5-978c-160d18276f6e",
+              "Text": "Vlož do vzorca konkrétne hodnoty (symbolicky)",
+              "Comment": "",
+              "WolframText": "x = (-5 +- sqrt(5^2 - 4*1*6])) / (2*1)",
+              "LatexText": "x=\\left(\\frac{-5+-\\sqrt{5^{2}-4 \\cdot 1 \\cdot 6]}}{2 \\cdot 1}\\right)"
+            }
+          ],
+          "Obrazok": "",
+          "Tags": [
+            ""
+          ],
+          "Points": 0,
+          "CorrectWolframAnswer": "x = {-3, -2}",
+          "UserWolframAnswer": null,
+          "CorrectLatexAnswer": "x={-3,-2}",
+          "UserLatexAnswer": null
+        },
+        {
+          "Id": "8a8f7f27-0436-4c20-a49a-ed4d5834d04f",
+          "Title": "Limita",
+          "Popis": "Vypočítajte limitu",
+          "WolframZadanie": "Limit[(x^2 - 4)/(x - 2), x -> 2]",
+          "LatexZadanie": "\\lim_{x \\to 2} \\left(\\frac{x^{2}-4}{x-2}\\right)",
+          "Kroky": [
+            {
+              "Id": "09629d61-3477-4ad9-bc4b-f10f4ca862aa",
+              "Text": "Krok 1: Rozpoznaj neurčitý výraz",
+              "Comment": "Pri dosadení 𝑥 = 2  vzniká 0/0 , preto pokračujeme algebraickou úpravou.",
+              "WolframText": "",
               "LatexText": null
             },
             {
-              "Id": "f0b90c68-6bcd-4729-8644-2a8b06b89b94",
-              "Text": "druhy step ",
-              "Comment": "stale neviem co robit",
-              "WolframText": null,
-              "LatexText": null
-            }
-          ],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        },
-        {
-          "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
-          "Title": "2",
-          "Popis": "sdfsdfsdf",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        },
-        {
-          "Id": "f881b2e3-2d50-4577-891d-b4d28369ef86",
-          "Title": "1",
-          "Popis": "sdfsdfsdf",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        },
-        {
-          "Id": "146df548-7a0f-44b3-b94f-041f54ea239a",
-          "Title": "TOto je moj novy example",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [
-            {
-              "Id": "76967d33-f0f4-42b6-a371-e97a7a979747",
-              "Text": "novy step",
+              "Id": "60b2cf0b-f354-465d-bef2-9d00d1109170",
+              "Text": "Krok 2: Rozlož čitateľa na súčin",
               "Comment": "",
-              "WolframText": null,
-              "LatexText": null
-            }
-          ],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        }
-      ],
-      "Points": 0
-    },
-    {
-      "Id": null,
-      "Title": "Test Title",
-      "Examples": [
-        {
-          "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
-          "Title": "+ľ+ľ+ľ+ľ141",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        },
-        {
-          "Id": "e698c5f4-a5e9-4b4a-8065-6947162c5a1e",
-          "Title": "+ľ+ľ+ľ+ľ141",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        }
-      ],
-      "Points": 0
-    },
-    {
-      "Id": null,
-      "Title": "Novy test testestest",
-      "Examples": [
-        {
-          "Id": "0adcc190-206e-49ea-9f70-117add728647",
-          "Title": "1212",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        },
-        {
-          "Id": "0adcc190-206e-49ea-9f70-117add728647",
-          "Title": "2323",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        },
-        {
-          "Id": "0adcc190-206e-49ea-9f70-117add728647",
-          "Title": "55555",
-          "Popis": "",
-          "WolframZadanie": null,
-          "LatexZadanie": null,
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": null,
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": null,
-          "UserLatexAnswer": null
-        }
-      ],
-      "Points": 0
-    },
-    {
-      "Id": null,
-      "Title": "Test č.1",
-      "Examples": [
-        {
-          "Id": "24915b5d-9c1c-45dc-b73d-0039f37f5a71",
-          "Title": "Zadanie č.1",
-          "Popis": "",
-          "WolframZadanie": "2/3*5+sqrt(10-5)*x+x=125",
-          "LatexZadanie": "\\frac{2}{3} \\cdot 5+\\sqrt{10-5} \\cdot x+x=125",
-          "Kroky": [
-            {
-              "Id": "b4576494-f0bc-47fd-b3b8-5f4d4e77b269",
-              "Text": "Prvy krok ktory neviem co robi",
-              "Comment": "",
-              "WolframText": "5x*x+2/5x+x/2",
-              "LatexText": "5 \\cdot x \\cdot x+\\frac{2}{5}x+x/2"
+              "WolframText": "Limit[((x - 2)(x + 2))/(x - 2), x -> 2]",
+              "LatexText": "\\lim_{x \\to 2} ((x-2)(x+2))/(x-2)"
             },
             {
-              "Id": "5728a8b8-2054-447c-b3d6-cba37d256ed5",
-              "Text": "Druhý krok",
+              "Id": "f1bdc0c1-05ed-4185-86f7-144825335064",
+              "Text": "Krok 4: Skráť spoločný člen (x - 2 ≠ 0, okrem bodu x = 2)",
               "Comment": "",
-              "WolframText": "1234/2x+25+sqrt(-1)=y",
-              "LatexText": "\\frac{1234}{2}x+25+\\sqrt{-1}=y"
+              "WolframText": "Limit[x + 2, x -> 2]",
+              "LatexText": "\\lim_{x \\to 2} x+2"
+            },
+            {
+              "Id": "178c24a3-871c-4168-aa77-cc59e11e7db2",
+              "Text": "Krok 5: Dosadíme hodnotu x → 2",
+              "Comment": "",
+              "WolframText": "2 + 2",
+              "LatexText": "2+2"
             }
           ],
           "Obrazok": "",
@@ -364,26 +369,9 @@
             ""
           ],
           "Points": 0,
-          "CorrectWolframAnswer": "D[Sin[x]^2, x]",
+          "CorrectWolframAnswer": "4",
           "UserWolframAnswer": null,
-          "CorrectLatexAnswer": "\\frac{d}{dx}(Sin[x]^2)",
-          "UserLatexAnswer": null
-        },
-        {
-          "Id": "b55c2264-e702-491d-afe1-67c6a836f347",
-          "Title": "Zadanie č.2",
-          "Popis": "",
-          "WolframZadanie": "1+2+3+4/2+x+2/2x",
-          "LatexZadanie": "1+2+3+\\frac{4}{2}+x+\\frac{2}{2}x",
-          "Kroky": [],
-          "Obrazok": "",
-          "Tags": [
-            ""
-          ],
-          "Points": 0,
-          "CorrectWolframAnswer": "sqrt(10)*x+2",
-          "UserWolframAnswer": null,
-          "CorrectLatexAnswer": "\\sqrt{10} \\cdot x+2",
+          "CorrectLatexAnswer": "4",
           "UserLatexAnswer": null
         }
       ],
